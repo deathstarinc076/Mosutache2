@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  Agent.Name: 'PipeLineVM1'
+  Agent.ComputerName: 'PipeLineVM1'
 
 variables:
   solution: '**/*.sln'
