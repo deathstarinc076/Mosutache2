@@ -7,7 +7,8 @@ trigger:
 - master
 
 pool:
-  Agent.ComputerName: 'PipeLineVM1'
+  name 'Default'
+  VmImage 'windows-latest'
 
 variables:
   solution: '**/*.sln'
